@@ -5,8 +5,17 @@
         <title>Recipe Website</title>
         <meta charset="UTF-8">
         <link rel="stylesheet" href="styles.css">
+
+        <style>
+            #internalCss {
+                background-color: green;
+                color: white;
+                font-size: 18px;
+            }
+        </style>
     </head>
     <body>
+        <div class="bg">
             <h1>Odin Recipes</h1>
             <p>(All Recipes came from <a href="https://www.allrecipes.com">https://www.allrecipes.com</a>)</p>
             
@@ -16,7 +25,19 @@
                 <li><a href="recipes/spaghetti.html">Spaghetti</a></li>
                 <li><a href="recipes/rice.html">Rice</a></li>
             </ul>
+        </div>
 
+        <h1>Css Practices</h1>
+        
+        <div>
+            <div id="externalCss">
+                Style me via the external method
+            </div>
+
+            <p id="internalCss">I would like to be styled with the internal method, please</p>
+
+            <button style="background-color: orange; font-size: 18px;">Inline method</button>
+        </div>
     </body>
 </html>
 
