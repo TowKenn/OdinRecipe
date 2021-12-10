@@ -1,3 +1,9 @@
 li:nth-child(odd) {
     color: lightpink;
+    font-family: Verdana, sans-serif;
+}
+
+.secondElement {
+    color: blue;
+    font-size: 36px;
 }
